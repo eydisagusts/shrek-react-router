@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Gallery() {
   return (
     <div className="flex flex-col items-center">
@@ -5,7 +7,7 @@ export default function Gallery() {
         <h1>Shrek & Friends Gallery</h1>
       </div>
       <div className="mt-36">
-        <img src="/images/gallery.png" alt="Gallery" width={450} height={450} />
+        <Image src="/images/gallery.png" alt="Gallery" width={450} height={450} />
       </div>
     </div>
   );
